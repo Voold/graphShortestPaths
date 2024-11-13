@@ -1,0 +1,9 @@
+.main_CodeBlock > h2 {
+    margin-left: 4%;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.main_CodeBlock{
+    font-size: min( 12px, calc(8px + 6 * ((100vw - 320px) / 1024))) ;
+}
