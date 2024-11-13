@@ -1,0 +1,70 @@
+.inputField, .addBut{
+    width: 23%;
+    min-width: 70px;
+    max-width: 100px;
+    height: auto;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.addBut{
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 2%;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+.infoBut{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+    padding-right: 0.5px;
+    padding-top: 1px;
+    margin: 0;
+    background-color: #c7c7c7;
+    color: #282c34;
+    font-size: 16px;
+    min-width: 20px;
+    min-height: 20px;
+    border-radius: 4px;
+    margin-left: 2%;
+    user-select: none;
+    cursor: pointer;
+}
+
+.infoBut:hover{
+    background-color: #aaaaaa;
+}
+
+.infoBut:active{
+    background-color: #797979;
+}
+
+.main_UI_box{
+    color: #c7c7c7;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.answer_wrapper{
+    padding-bottom: 2%;
+    margin: 3%;
+    border: 1px solid #00000000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    border-radius: 8px;
+    height: 35vh;
+    max-height: 200px; 
+    overflow-y: auto;
+}
+
+.main_UI_box > form, p{
+    align-items: center;
+    text-align: center;
+}
+
+.demoGraphs{
+    margin: 5% 0 5% 2%;
+}
