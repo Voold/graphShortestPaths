@@ -168,10 +168,7 @@ function UI() {
                     }
                 }
             }
-            if (!removedEdges.length == 0){
-                console.log("i remove this Edges: ")
-                console.log(removedEdges)
-            }
+
             return removedEdges;
         }
 
@@ -216,10 +213,9 @@ function UI() {
 
         graph.adjacencyList = graphState.adjacencyList;
 
-        graph.adjacencyList = graphState.adjacencyList;
 
         if (!e.target["A"].value.replaceAll(' ', '').isEmpty  && !e.target["B"].value.replaceAll(' ', '').isEmpty && e.target["C"].value != 0 && !e.target["C"].value.isEmpty){
-            graph.addEdge(e.target["A"].value.replaceAll(' ', '').toUpperCase(),e.target["B"].value.replaceAll(' ', '').toUpperCase(),e.target["C"].value);
+            graph.addEdge(e.target["A"].value.replaceAll(' ', '').toUpperCase(),e.target["B"].value.replaceAll(' ', '').toUpperCase(),+e.target["C"].value);
         };
             
         setGraphState(graph);
