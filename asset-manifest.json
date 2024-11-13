@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d8b3c6e.css",
-    "main.js": "/static/js/main.bf1ef165.js",
-    "static/js/453.68693753.chunk.js": "/static/js/453.68693753.chunk.js",
-    "index.html": "/index.html",
-    "main.2d8b3c6e.css.map": "/static/css/main.2d8b3c6e.css.map",
-    "main.bf1ef165.js.map": "/static/js/main.bf1ef165.js.map",
-    "453.68693753.chunk.js.map": "/static/js/453.68693753.chunk.js.map"
+    "main.css": "/Voold/graphShortestPaths/tree/gh-pages/static/css/main.e67d1ce8.css",
+    "main.js": "/Voold/graphShortestPaths/tree/gh-pages/static/js/main.d1ac8197.js",
+    "static/js/317.7a05155a.chunk.js": "/Voold/graphShortestPaths/tree/gh-pages/static/js/317.7a05155a.chunk.js",
+    "index.html": "/Voold/graphShortestPaths/tree/gh-pages/index.html",
+    "main.e67d1ce8.css.map": "/Voold/graphShortestPaths/tree/gh-pages/static/css/main.e67d1ce8.css.map",
+    "main.d1ac8197.js.map": "/Voold/graphShortestPaths/tree/gh-pages/static/js/main.d1ac8197.js.map",
+    "317.7a05155a.chunk.js.map": "/Voold/graphShortestPaths/tree/gh-pages/static/js/317.7a05155a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d8b3c6e.css",
-    "static/js/main.bf1ef165.js"
+    "static/css/main.e67d1ce8.css",
+    "static/js/main.d1ac8197.js"
   ]
 }
