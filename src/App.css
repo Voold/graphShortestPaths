@@ -33,7 +33,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: min(16px, calc(14px + 2 * ((100vw - 320px) / 1024))) ;
+  font-size: min(16px, calc(10px + 2 * ((100vw - 320px) / 1024))) ;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -50,4 +50,33 @@ header {
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation{
+  display: flex;
+  justify-content: start;
+  
+  
+  background-color: #202020;
+}
+
+.navLink{
+  display: flex;
+  align-items: center;
+  width: max-content;
+  height: 100%;
+  padding: 0 1% 0 1%;
+  color: #fff;
+  text-decoration: none;
+  font-size: min(18px, calc(8px + 2 * ((100vw - 120px) / 824))) ;
+  background-color: #202020;
+
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+
+.navLink:hover {
+  background-color: #313131;
 }
